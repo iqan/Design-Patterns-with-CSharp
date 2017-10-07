@@ -9,3 +9,5 @@ E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSha
 E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSharp\1_Creational_Tests\bin\Debug\nunit.framework.dll
 E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSharp\1_Creational_Tests\bin\Debug\nunit.framework.xml
 E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSharp\1_Creational_Tests\obj\Debug\1_Creational_Tests.csprojResolveAssemblyReference.cache
+E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSharp\1_Creational_Tests\bin\Debug\1_Creational.dll
+E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSharp\1_Creational_Tests\bin\Debug\1_Creational.pdb
