@@ -8,8 +8,8 @@ namespace _1_Creational.Factory
         {
             switch (biriyaniType)
             {
-                case BiriyaniTypes.ChikenBiriyani:
-                    return new ChikenBiriyani();
+                case BiriyaniTypes.ChickenBiriyani:
+                    return new ChickenBiriyani();
                 case BiriyaniTypes.FishBiriyani:
                     return new FishBiriyani();
                 case BiriyaniTypes.MuttonBiriyani:

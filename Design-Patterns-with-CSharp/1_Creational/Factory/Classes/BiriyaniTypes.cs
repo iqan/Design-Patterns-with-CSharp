@@ -2,7 +2,7 @@
 {
     public enum BiriyaniTypes
     {
-        ChikenBiriyani,
+        ChickenBiriyani,
         FishBiriyani,
         MuttonBiriyani,
         VegBiriyani

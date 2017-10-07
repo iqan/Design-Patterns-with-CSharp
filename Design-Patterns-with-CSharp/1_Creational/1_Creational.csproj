@@ -46,7 +46,7 @@
     <Compile Include="Factory\Classes\BiriyaniTypes.cs" />
     <Compile Include="Factory\Classes\FishBiriyani.cs" />
     <Compile Include="Factory\Classes\MuttonBiriyani.cs" />
-    <Compile Include="Factory\Classes\ChikenBiriyani.cs" />
+    <Compile Include="Factory\Classes\ChickenBiriyani.cs" />
     <Compile Include="Factory\Classes\IBiriyani.cs" />
     <Compile Include="Factory\Classes\VegBiriyani.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

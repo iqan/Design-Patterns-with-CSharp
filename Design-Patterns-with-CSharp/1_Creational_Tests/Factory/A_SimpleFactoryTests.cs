@@ -9,9 +9,9 @@ namespace _1_Creational.Factory
         [Test]
         public void ChickenBiriyani_Should_Be_Created_When_Given_ChickenType()
         {
-            var biriyani = A_SimpleFactory.CreateBiriyani(BiriyaniTypes.ChikenBiriyani);
+            var biriyani = A_SimpleFactory.CreateBiriyani(BiriyaniTypes.ChickenBiriyani);
 
-            Assert.IsInstanceOf<ChikenBiriyani>(biriyani);
+            Assert.IsInstanceOf<ChickenBiriyani>(biriyani);
         }
 
         [Test]
