@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Builder\Builder.cs" />
+    <Compile Include="Builder\Classes\Biriyani.cs" />
     <Compile Include="Factory\A_SimpleFactory.cs" />
     <Compile Include="Factory\B_AbstractFactory.cs" />
     <Compile Include="Factory\Classes\BiriyaniTypes.cs" />
@@ -53,9 +54,6 @@
     <Compile Include="Prototype\Prototype.cs" />
     <Compile Include="Singleton\Singleton.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Builder\Classes\" />
-    <Folder Include="Prototype\Classes\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
