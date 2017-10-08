@@ -56,7 +56,6 @@
   <ItemGroup>
     <Folder Include="Builder\Classes\" />
     <Folder Include="Prototype\Classes\" />
-    <Folder Include="Singleton\Classes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
