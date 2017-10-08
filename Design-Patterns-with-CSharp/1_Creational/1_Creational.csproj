@@ -54,6 +54,11 @@
     <Compile Include="Prototype\Prototype.cs" />
     <Compile Include="Singleton\Singleton.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Builder\README.md" />
+    <None Include="Factory\README.md" />
+    <None Include="Prototype\README.md" />
+    <None Include="Singleton\README.md" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
