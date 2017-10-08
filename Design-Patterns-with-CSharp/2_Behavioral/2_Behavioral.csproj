@@ -41,6 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strategy\SpecialDishes.cs" />
+    <Compile Include="Strategy\Restaurant.cs" />
+    <Compile Include="Strategy\NearByRestaurant.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Strategy\README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
