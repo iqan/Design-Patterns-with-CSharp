@@ -1,6 +1,0 @@
-E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSharp\1_Creational\bin\Debug\1_Creational.dll
-E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSharp\1_Creational\bin\Debug\1_Creational.pdb
-E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSharp\1_Creational\obj\Debug\1_Creational.csprojResolveAssemblyReference.cache
-E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSharp\1_Creational\obj\Debug\1_Creational.csproj.CoreCompileInputs.cache
-E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSharp\1_Creational\obj\Debug\1_Creational.dll
-E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSharp\1_Creational\obj\Debug\1_Creational.pdb

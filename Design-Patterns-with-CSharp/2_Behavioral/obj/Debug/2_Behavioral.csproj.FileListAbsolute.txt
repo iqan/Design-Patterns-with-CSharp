@@ -1,6 +1,0 @@
-E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSharp\2_Behavioral\bin\Debug\2_Behavioral.dll
-E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSharp\2_Behavioral\bin\Debug\2_Behavioral.pdb
-E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSharp\2_Behavioral\obj\Debug\2_Behavioral.csprojResolveAssemblyReference.cache
-E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSharp\2_Behavioral\obj\Debug\2_Behavioral.csproj.CoreCompileInputs.cache
-E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSharp\2_Behavioral\obj\Debug\2_Behavioral.dll
-E:\Projects\Best Practices\Design-Patterns-with-CSharp\Design-Patterns-with-CSharp\2_Behavioral\obj\Debug\2_Behavioral.pdb
