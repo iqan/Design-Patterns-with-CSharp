@@ -2,38 +2,38 @@
 {
     public interface IRestaurant
     {
-        ISpecialDish OrderSpecialDish();
+        string OrderSpecialDish();
     }
 
     public class WestIndianRestaurant : IRestaurant
     {
-        public ISpecialDish OrderSpecialDish()
+        public string OrderSpecialDish()
         {
-            return new Dhokla();
+            return "Dhokla";
         }
     }
 
     public class NorthIndianRestaurant : IRestaurant
     {
-        public ISpecialDish OrderSpecialDish()
+        public string OrderSpecialDish()
         {
-            return new ChholeBhature();
+            return "ChholeBhature";
         }
     }
 
     public class EastIndianRestaurant : IRestaurant
     {
-        public ISpecialDish OrderSpecialDish()
+        public string OrderSpecialDish()
         {
-            return new KoshaMangsho();
+            return "KoshaMangsho";
         }
     }
 
     public class SouthIndianRestaurant : IRestaurant
     {
-        public ISpecialDish OrderSpecialDish()
+        public string OrderSpecialDish()
         {
-            return new Dosa();
+            return "Dosa";
         }
     }
 }

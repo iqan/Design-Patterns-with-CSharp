@@ -12,7 +12,7 @@ namespace _2_Behavioral_Tests.Strategy
             var restaurant = new A1Restaurant(new WestIndianRestaurant());
             var specialDish = restaurant.OrderSpecialDishOfRestaurant();
 
-            Assert.IsInstanceOf<Dhokla>(specialDish);
+            Assert.AreEqual("Dhokla", specialDish);
         }
 
         [Test]
@@ -21,7 +21,7 @@ namespace _2_Behavioral_Tests.Strategy
             var restaurant = new A1Restaurant(new SouthIndianRestaurant());
             var specialDish = restaurant.OrderSpecialDishOfRestaurant();
 
-            Assert.IsInstanceOf<Dosa>(specialDish);
+            Assert.AreEqual("Dosa", specialDish);
         }
 
         [Test]
@@ -30,7 +30,7 @@ namespace _2_Behavioral_Tests.Strategy
             var restaurant = new A1Restaurant(new NorthIndianRestaurant());
             var specialDish = restaurant.OrderSpecialDishOfRestaurant();
 
-            Assert.IsInstanceOf<ChholeBhature>(specialDish);
+            Assert.AreEqual("ChholeBhature", specialDish);
         }
 
         [Test]
@@ -39,7 +39,7 @@ namespace _2_Behavioral_Tests.Strategy
             var restaurant = new A1Restaurant(new EastIndianRestaurant());
             var specialDish = restaurant.OrderSpecialDishOfRestaurant();
 
-            Assert.IsInstanceOf<KoshaMangsho>(specialDish);
+            Assert.AreEqual("KoshaMangsho", specialDish);
         }
 
         [Test]
@@ -47,14 +47,14 @@ namespace _2_Behavioral_Tests.Strategy
         {
             var restaurant = new A1Restaurant(new EastIndianRestaurant());
             var specialDish = restaurant.OrderSpecialDishOfRestaurant();
-
-            Assert.IsInstanceOf<KoshaMangsho>(specialDish);
+            
+            Assert.AreEqual("KoshaMangsho", specialDish);
 
             // Now changing restaurant type
             restaurant.ChangeRestaurantType(new WestIndianRestaurant());
             specialDish = restaurant.OrderSpecialDishOfRestaurant();
 
-            Assert.IsInstanceOf<Dhokla>(specialDish);
+            Assert.AreEqual("Dhokla", specialDish);
         }
     }
 }

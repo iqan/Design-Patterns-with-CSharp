@@ -9,7 +9,7 @@
             _restaurant = restaurant;
         }
 
-        public ISpecialDish OrderSpecialDishOfRestaurant()
+        public string OrderSpecialDishOfRestaurant()
         {
             return _restaurant.OrderSpecialDish();
         }
