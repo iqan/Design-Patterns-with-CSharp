@@ -40,12 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Observer\GameResult.cs" />
+    <Compile Include="Observer\IAudience.cs" />
+    <Compile Include="Observer\IGameOrganizer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategy\Restaurant.cs" />
     <Compile Include="Strategy\NearByRestaurant.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Observer\README.md" />
     <None Include="Strategy\README.md" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
