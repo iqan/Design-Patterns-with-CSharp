@@ -46,10 +46,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategy\Restaurant.cs" />
     <Compile Include="Strategy\NearByRestaurant.cs" />
+    <Compile Include="TemplateMethod\BiriyaniStore.cs" />
+    <Compile Include="TemplateMethod\A1BiriyaniStore.cs" />
+    <Compile Include="TemplateMethod\HyderabadiBiriyaniStore.cs" />
+    <Compile Include="TemplateMethod\Classes\IBiriyani.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Observer\README.md" />
     <None Include="Strategy\README.md" />
+    <None Include="TemplateMethod\README.md" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
