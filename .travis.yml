@@ -1,2 +1,10 @@
 language: csharp
 solution: Design-Patterns-with-CSharp.sln
+before_install:
+  - sudo apt-get install nunit-console
+before_script:
+  - nuget restore Design-Patterns-with-CSharp.sln
+after_script:
+  - nunit-console 1_Creational_Tests/bin/Release/1_Creational_Tests.dll
+  - nunit-console 2_Behavioral_Tests/bin/Release/2_Behavioral_Tests.dll
+  - nunit-console 3_Structural_Tests/bin/Release/3_Structural_Tests.dll
