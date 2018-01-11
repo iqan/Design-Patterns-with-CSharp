@@ -1,6 +1,8 @@
 # Design-Patterns-with-CSharp
 Some design patterns implemented with C# .NET for educational purpose
 
+[![Build Status](https://travis-ci.org/iqans/Design-Patterns-with-CSharp.svg?branch=master)](https://travis-ci.org/iqans/Design-Patterns-with-CSharp)
+
 The book "Design Patterns: Elements of Reusable Object-Oriented Software", authored by Gang Of Four is the base of this design patterns.
 
 ## Classification
