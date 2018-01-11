@@ -246,6 +246,9 @@ _Pvt_Extensions
 .paket/paket.exe
 paket-files/
 
+# packages
+packages
+
 # FAKE - F# Make
 .fake/
 
