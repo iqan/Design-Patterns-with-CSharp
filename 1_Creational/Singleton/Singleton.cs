@@ -7,14 +7,14 @@
 
     public class MyFavoriteiriyani
     {
-        private static MyFavoriteiriyani _biryani;
+        private static MyFavoriteBiriyani _biryani;
         private static readonly object _syncObject = new object() { };
 
-        private MyFavoriteiriyani()
+        private MyFavoriteBiriyani()
         {
         }
 
-        public static MyFavoriteiriyani Biriyani
+        public static MyFavoriteBiriyani Biriyani
         {
             get
             {
@@ -22,7 +22,7 @@
                 {
                     lock (_syncObject)
                     {
-                        _biryani = new MyFavoriteiriyani();
+                        _biryani = new MyFavoriteBiriyani();
                     }
                 }
                 return _biryani;
