@@ -5,7 +5,7 @@
         
     }
 
-    public class MyFavoriteiriyani
+    public class MyFavoriteBiriyani
     {
         private static MyFavoriteBiriyani _biryani;
         private static readonly object _syncObject = new object() { };

@@ -8,8 +8,8 @@ namespace _1_Creational.Singleton
         [Test]
         public void MyFavoriteBiriyani_Should_Always_Return_Same_Biriyani()
         {
-            var myFavoriteBiriyani1 = MyFavoriteiriyani.Biriyani;
-            var myFavoriteBiriyani2 = MyFavoriteiriyani.Biriyani;
+            var myFavoriteBiriyani1 = MyFavoriteBiriyani.Biriyani;
+            var myFavoriteBiriyani2 = MyFavoriteBiriyani.Biriyani;
 
             Assert.AreSame(myFavoriteBiriyani1, myFavoriteBiriyani2);
 
