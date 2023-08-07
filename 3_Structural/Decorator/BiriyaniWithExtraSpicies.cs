@@ -2,7 +2,7 @@
 
 namespace _3_Structural.Decorator
 {
-    public class BiriyaniWithExtraSpicies : IBiriyani
+    public class BiriyaniWithExtraSpices : IBiriyani
     {
         public decimal Cost { get; set; }
         public List<string> Ingredients { get; set; }
